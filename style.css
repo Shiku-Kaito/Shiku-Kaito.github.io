@@ -5,7 +5,7 @@
   --muted: #6b7280;
   --line: #e5e7eb;
 
-  --accent: #2563eb;       /* メイン青 */
+  --accent: #1d4ed8;       /* メイン青 */
   --accent-soft: #eff6ff;  /* 薄い青背景 */
 
   --maxw: 1100px;
@@ -264,12 +264,22 @@ img {
 }
 
 .conf-link {
-  color: #2563eb;
+  color: var(--accent);
   font-weight: 600;
   text-decoration: none;
 }
 
 .conf-link:hover {
+  text-decoration: underline;
+}
+
+.accent-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.accent-link:hover {
   text-decoration: underline;
 }
 
