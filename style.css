@@ -4,8 +4,10 @@
   --text: #1f2937;
   --muted: #6b7280;
   --line: #e5e7eb;
-  --accent: #d97706;
-  --accent-soft: #fff7ed;
+
+  --accent: #2563eb;       /* メイン青 */
+  --accent-soft: #eff6ff;  /* 薄い青背景 */
+
   --maxw: 1100px;
 }
 
@@ -262,7 +264,7 @@ img {
 }
 
 .conf-link {
-  color: ##0969da;
+  color: #2563eb;
   font-weight: 600;
   text-decoration: none;
 }
