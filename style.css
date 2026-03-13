@@ -253,6 +253,16 @@ img {
   }
 }
 
+.conf-link {
+  color: #d35400;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.conf-link:hover {
+  text-decoration: underline;
+}
+
 .meta-item {
   padding: 14px 16px;
   border: 1px solid var(--line);
