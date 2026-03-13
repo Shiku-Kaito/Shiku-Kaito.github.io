@@ -259,8 +259,7 @@ img {
 }
 
 @media (max-width: 900px) {
-  .hero-card,
-  .main-grid {
+  .hero-card {
     grid-template-columns: 1fr;
   }
 
