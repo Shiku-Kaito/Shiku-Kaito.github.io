@@ -273,6 +273,13 @@ img {
   text-decoration: underline;
 }
 
+.hero-description {
+  padding: 0;
+  padding-top: 10px;
+  font-size: 12.5pt;
+  line-height: 1.45;
+}
+
 .accent-link {
   color: var(--accent);
   text-decoration: none;
