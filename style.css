@@ -197,6 +197,11 @@ img {
   margin-bottom: 24px;
 }
 
+/* Research枠を濃い青に */
+#research {
+  border: 2px solid #1e3a8a;
+}
+
 .section-title {
   margin: 0 0 18px;
   font-size: 1.6rem;
@@ -206,12 +211,7 @@ img {
 }
 
 .section-title::before {
-  content: "";
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 999px;
-  background: var(--accent);
+  content: none;
 }
 
 .news-list {
