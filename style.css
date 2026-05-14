@@ -197,11 +197,6 @@ img {
   margin-bottom: 24px;
 }
 
-/* Research枠を濃い青に */
-#research {
-  border: 2px solid #1e3a8a;
-}
-
 .section-title {
   margin: 0 0 18px;
   font-size: 1.6rem;
@@ -314,9 +309,9 @@ img {
   padding: 6px 10px;
   border-radius: 999px;
   background: var(--accent-soft);
-  color: var(--accent);
+  color: var(--accent-dark);
   font-size: 0.88rem;
-  border: 1px solid #fed7aa;
+  border: 1px solid var(--accent-dark);  /* 濃い青に変更 */
 }
 
 .footer {
